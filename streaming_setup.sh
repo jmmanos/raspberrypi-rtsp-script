@@ -12,7 +12,7 @@ echo "Setting up RaspberryPiRTSPServer."
 # get file
 pwd
 mkdir raspi
-mv ../../raspi/* ./raspi
+mv ../raspi/* ./raspi
 cd raspi/
 make
 
